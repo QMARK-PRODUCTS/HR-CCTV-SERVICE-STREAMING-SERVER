@@ -15,6 +15,12 @@ routes = [
         "method": ["GET"],
         "handler": get_hls_playlist,
         "name": "Get HLS Playlist"
+    },
+    {
+        "route": "/webcam-video",
+        "method": ["GET"],
+        "handler": videoFeedWebcam,
+        "name": "Get Webcam Video"
     }
 ]
 
